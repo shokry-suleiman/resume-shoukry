@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoukry Suleiman — Senior Lead Frontend Engineer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #1f2937;
+            line-height: 1.45;
+            max-width: 830px;
+            margin: 0 auto;
+            padding: 30px 45px;
+            font-size: 10.5pt;
+        }
+        @media print {
+            body { padding: 18px 28px; font-size: 10pt; }
+            @page { margin: 0.4in; size: A4; }
+        }
+
+        .header { text-align: center; margin-bottom: 14px; border-bottom: 2px solid #111; padding-bottom: 10px; }
+        .header h1 { font-size: 22pt; font-weight: 700; letter-spacing: 0.5px; color: #0f172a; }
+        .header .title { font-size: 11.5pt; color: #334155; margin: 2px 0 6px; font-weight: 500; }
+        .header .contact { font-size: 9.5pt; color: #475569; }
+        .header .contact a { color: #1e40af; text-decoration: none; font-weight: 500; }
+        .header .contact span { margin: 0 5px; color: #cbd5e1; }
+
+        .section { margin-bottom: 12px; }
+        .section-title {
+            font-size: 11pt; font-weight: 700; text-transform: uppercase;
+            color: #0f172a; border-bottom: 1.5px solid #94a3b8;
+            padding-bottom: 2px; margin-bottom: 7px; letter-spacing: 1px;
+        }
+
+        .summary { font-size: 10pt; color: #1f2937; line-height: 1.55; }
+        .summary strong { color: #0f172a; }
+
+        .highlights {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 8px; margin-top: 8px;
+        }
+        .highlight {
+            text-align: center; background: #f1f5f9;
+            border-left: 3px solid #1e40af;
+            padding: 6px 4px; border-radius: 2px;
+        }
+        .highlight .value { font-size: 13pt; font-weight: 700; color: #1e40af; }
+        .highlight .label { font-size: 8.5pt; color: #475569; text-transform: uppercase; letter-spacing: 0.3px; }
+
+        .job { margin-bottom: 10px; page-break-inside: avoid; }
+        .job-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 1px; }
+        .job-title { font-weight: 700; font-size: 10.5pt; color: #0f172a; }
+        .job-company { font-weight: 600; color: #1e40af; }
+        .job-date { font-size: 9.5pt; color: #64748b; white-space: nowrap; font-weight: 500; }
+        .job-promotion { font-size: 9pt; color: #64748b; font-style: italic; margin-bottom: 3px; }
+        .job ul { margin-left: 16px; margin-top: 2px; }
+        .job li { margin-bottom: 2px; font-size: 10pt; line-height: 1.45; }
+        .job li strong { color: #0f172a; }
+
+        .skills-grid { display: grid; grid-template-columns: 1fr; gap: 3px; font-size: 10pt; }
+        .skill-row { display: flex; }
+        .skill-label { font-weight: 700; min-width: 130px; color: #0f172a; }
+        .skill-value { color: #334155; }
+
+        .edu-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .edu-degree { font-weight: 700; font-size: 10.5pt; color: #0f172a; }
+        .edu-date { font-size: 9.5pt; color: #64748b; }
+        .edu-detail { font-size: 10pt; color: #334155; }
+
+        .footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>SHOUKRY SULEIMAN</h1>
+    <div class="title">Senior Lead Frontend Engineer · 9 Years Experience</div>
+    <div class="contact">
+        New Cairo, Egypt
+        <span>|</span> +201096600801
+        <span>|</span> <a href="mailto:shokrysuleiman032@gmail.com">shokrysuleiman032@gmail.com</a>
+        <span>|</span> <a href="https://linkedin.com/in/shoukry-suleiman">LinkedIn</a>
+        <span>|</span> <a href="https://github.com/shoukry-suleiman">GitHub</a>
+        <span>|</span> <a href="https://leetcode.com/shokrysuleiman032">LeetCode</a>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">Summary</div>
+    <p class="summary">
+        Senior Lead Frontend Engineer with <strong>9 years</strong> shipping high-traffic web applications across fintech, e-commerce, and enterprise.
+        Currently lead a team of <strong>6 engineers</strong> at EFG Holding, where I architected an <strong>Nx monorepo</strong> from scratch powering 4 Next.js apps for <strong>250K+ monthly users</strong>.
+        Specialized in greenfield architecture, performance optimization, and CI/CD design.
+    </p>
+    <div class="highlights">
+        <div class="highlight"><div class="value">250K+</div><div class="label">Monthly Users</div></div>
+        <div class="highlight"><div class="value">0.67s</div><div class="label">LCP (Web Vitals)</div></div>
+        <div class="highlight"><div class="value">6</div><div class="label">Engineers Led</div></div>
+        <div class="highlight"><div class="value">4</div><div class="label">Apps in Monorepo</div></div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+        <div class="job-header">
+            <div><span class="job-title">Senior Lead Frontend Engineer | AVP</span> · <span class="job-company">EFG Holding</span></div>
+            <div class="job-date">Sep 2022 — Jun 2026</div>
+        </div>
+        <div class="job-promotion">Promoted from Frontend Development Lead · Team of 6 engineers</div>
+        <ul>
+            <li><strong>Architected an Nx monorepo from scratch</strong> hosting 4 Next.js 14 applications (Corporate, Blog, Career Portal, KSA), serving <strong>250K+ monthly visitors</strong> across <strong>efgholding.com</strong> and regional domains</li>
+            <li>Selected the full stack — <strong>Next.js 14, React 18, TypeScript, Tailwind, GraphQL</strong> — and defined shared libraries, path aliases, and coding standards across all apps</li>
+            <li>Achieved best-in-class Core Web Vitals: <strong>LCP 0.67s, CLS 0.00, INP 8ms</strong> — exceeding Google's "Good" thresholds by 3-40x</li>
+            <li>Designed CI/CD pipelines on <strong>Azure DevOps + Helm charts</strong>, deploying to <strong>OpenShift</strong> with automated Cypress E2E coverage</li>
+            <li>Led <strong>code reviews, hiring, mentoring, and sprint planning</strong> for a team of 6 frontend engineers</li>
+            <li>Authored a comprehensive engineering wiki (8 pages) covering onboarding, infrastructure, and per-app documentation, cutting new-hire ramp-up time</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div><span class="job-title">Senior Software Engineer</span> · <span class="job-company">GTWIT Solutions</span></div>
+            <div class="job-date">Nov 2021 — Sep 2022</div>
+        </div>
+        <ul>
+            <li>Engineered <strong>SANS (Saudi Air Navigation Services)</strong>, a government-grade web platform handling <strong>80K+ users</strong></li>
+            <li>Developed <strong>Smart Menu</strong>, a restaurant ERP with order management, inventory, and reporting — <strong>60K+ users</strong></li>
+            <li>Shipped <strong>Maestro POS</strong>, a point-of-sale web application for retail operations</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div><span class="job-title">Senior Frontend Developer</span> · <span class="job-company">Baianat</span></div>
+            <div class="job-date">Nov 2020 — Nov 2021</div>
+        </div>
+        <ul>
+            <li>Delivered <strong>Kemitt</strong>, a furniture e-commerce platform comparable to IKEA, serving <strong>120K+ users</strong> with catalog, cart, and checkout flows</li>
+            <li>Launched <strong>Catalog</strong> and <strong>Mumez</strong> applications with focus on responsive design and performance</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div><span class="job-title">Frontend Developer</span> · <span class="job-company">Vapulus</span></div>
+            <div class="job-date">Nov 2019 — Nov 2020</div>
+        </div>
+        <ul>
+            <li>Implemented a <strong>payment gateway</strong> web application processing transactions for <strong>20K+ users</strong>, integrating secure payment flows with Angular</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div><span class="job-title">Senior Frontend Developer</span> · <span class="job-company">Bit68</span></div>
+            <div class="job-date">Nov 2018 — Nov 2019</div>
+        </div>
+        <ul>
+            <li>Launched <strong>NART</strong>, an art platform serving <strong>10K+ users</strong>, with gallery browsing and artist profiles</li>
+            <li>Released <strong>Tradeline Store</strong> (web + mobile) and 3 additional applications across Angular and Ionic</li>
+        </ul>
+    </div>
+
+    <div class="job">
+        <div class="job-header">
+            <div><span class="job-title">Frontend Developer</span> · <span class="job-company">Momentum Solutions</span></div>
+            <div class="job-date">Jun 2017 — Jun 2018</div>
+        </div>
+        <ul>
+            <li>Owned development of <strong>TMC</strong> web application using AngularJS and Ionic, from requirements through deployment</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skill-row"><span class="skill-label">Frontend:</span><span class="skill-value">React 18, Next.js 14, Angular 2+, TypeScript, JavaScript (ES6+)</span></div>
+        <div class="skill-row"><span class="skill-label">Styling & UI:</span><span class="skill-value">Tailwind CSS, CSS3, Framer Motion, NextUI, Responsive Design</span></div>
+        <div class="skill-row"><span class="skill-label">Architecture:</span><span class="skill-value">Nx Monorepo, GraphQL, Shared Libraries, Design Systems</span></div>
+        <div class="skill-row"><span class="skill-label">DevOps & CI/CD:</span><span class="skill-value">Azure DevOps, OpenShift, Helm Charts, Git, Cypress E2E</span></div>
+        <div class="skill-row"><span class="skill-label">Mobile:</span><span class="skill-value">Ionic, Flutter</span></div>
+        <div class="skill-row"><span class="skill-label">Leadership:</span><span class="skill-value">Team Lead (6), Code Reviews, Hiring, Mentoring, Sprint Planning</span></div>
+    </div>
+</div>
+
+<div class="section">
+    <div class="footer-grid">
+        <div>
+            <div class="section-title">Education</div>
+            <div class="edu-header">
+                <span class="edu-degree">B.Sc. Computer Science</span>
+                <span class="edu-date">2014 — 2018</span>
+            </div>
+            <div class="edu-detail">Suez Canal University · Grade: Very Good</div>
+        </div>
+        <div>
+            <div class="section-title">Languages</div>
+            <div style="font-size: 10pt;">
+                Arabic — Native<br>
+                English — Professional Working
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
